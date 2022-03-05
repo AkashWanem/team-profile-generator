@@ -1,8 +1,15 @@
 h1 {
     text-align: center;
+    background-color: #183153;
+    color: #fff;
 }
 .card-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    
+}
+.card {
+    border: 1px solid black;
+    border-radius: 3px;
 }

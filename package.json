@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +21,8 @@
   },
   "homepage": "https://github.com/AkashWanem/team-profile-generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "D": "^1.0.0",
+    "inquirer": "^8.2.0",
+    "jest": "^27.5.1"
   }
 }
