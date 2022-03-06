@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+    rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/9fd8af20e3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
@@ -12,56 +16,79 @@
     <header>
         <h1>My Team</h1>
     </header>
-    <main id="wrapper">
-        <div class="card-wrapper">
-            <div class="card">
-                <h2>Jared</h2>
-                <p><i class="fa-solid fa-mug-hot"></i>&nbsp;Manager</p>
-                <form>
-                    <input type="text" id="id" name="id" value="ID:"><br>
-                    <input type="text" id="email" name="email" value="Email:"><br>
-                    <input type="text" id="office" name="office" value="Office Number:">
-                </form> 
+    <div class="container">
+        <div class="row">
+            <div class="card-wrapper">
+                <div class="card text-white bg-info m-3" style="max-width: 18rem;">
+                    <div class="card-header">
+                        <h2>Jared</h2>
+                        <p><i class="fa-solid fa-mug-hot"></i>&nbsp;Manager</p>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">ID:</li>
+                            <li class="list-group-item">Email:</li>
+                            <li class="list-group-item">Office number: </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card text-white bg-info m-3" style="max-width: 18rem;">
+                    <div class="card-header">
+                        <h2>Jared</h2>
+                        <p><i class="fa-solid fa-glasses"></i>&nbsp;Engineer</p>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <input type="text" id="id" name="id" value="ID:"><br>
+                            <input type="text" id="email" name="email" value="Email:"><br>
+                            <input type="text" id="ghub" name="ghub" value="GitHub:">
+                        </form> 
+                    </div>
+                </div>
+                <div class="card text-white bg-info m-3" style="max-width: 18rem;">
+                    <div class="card-header">
+                        <h2>Jared</h2>
+                        <p><i class="fa-solid fa-glasses"></i>&nbsp;Engineer</p>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <input type="text" id="id" name="id" value="ID:"><br>
+                            <input type="text" id="email" name="email" value="Email:"><br>
+                            <input type="text" id="ghub" name="ghub" value="GitHub:">
+                        </form> 
+                    </div>
+                </div>
             </div>
-            <div class="card">
-                <h2>Jared</h2>
-                <p><i class="fa-solid fa-glasses"></i>&nbsp;Engineer</p>
-                <form>
-                    <input type="text" id="id" name="id" value="ID:"><br>
-                    <input type="text" id="email" name="email" value="Email:"><br>
-                    <input type="text" id="ghub" name="ghub" value="GitHub:">
-                </form> 
-            </div>
-            <div class="card">
-                <h2>Jared</h2>
-                <p><i class="fa-solid fa-glasses"></i>&nbsp;Engineer</p>
-                <form>
-                    <input type="text" id="id" name="id" value="ID:"><br>
-                    <input type="text" id="email" name="email" value="Email:"><br>
-                    <input type="text" id="ghub" name="ghub" value="GitHub:">
-                </form> 
+            <div class="card-wrapper">
+                <div class="card text-white bg-info m-3" style="max-width: 18rem;">
+                    <div class="card-header">
+                        <h2>Jared</h2>
+                        <p><i class="fa-solid fa-glasses"></i>&nbsp;Engineer</p>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <input type="text" id="id" name="id" value="ID:"><br>
+                            <input type="text" id="email" name="email" value="Email:"><br>
+                            <input type="text" id="ghub" name="ghub" value="GitHub:">
+                        </form> 
+                    </div>
+                </div>
+                <div class="card text-white bg-info m-3" style="max-width: 18rem;">
+                    <div class="card-header">
+                        <h2>Jared</h2>
+                        <p><i class="fa-solid fa-graduation-cap"></i>&nbsp;Intern</p>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <input type="text" id="id" name="id" value="ID:"><br>
+                            <input type="text" id="email" name="email" value="Email:"><br>
+                            <input type="text" id="school" name="school" value="School:">
+                        </form> 
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card-wrapper">
-            <div class="card">
-                <h2>Jared</h2>
-                <p><i class="fa-solid fa-glasses"></i>&nbsp;Engineer</p>
-                <form>
-                    <input type="text" id="id" name="id" value="ID:"><br>
-                    <input type="text" id="email" name="email" value="Email:"><br>
-                    <input type="text" id="ghub" name="ghub" value="GitHub:">
-                </form> 
-            </div>
-            <div class="card">
-                <h2>Jared</h2>
-                <p><i class="fa-solid fa-graduation-cap"></i>&nbsp;Intern</p>
-                <form>
-                    <input type="text" id="id" name="id" value="ID:"><br>
-                    <input type="text" id="email" name="email" value="Email:"><br>
-                    <input type="text" id="school" name="school" value="School:">
-                </form> 
-            </div>
-        </div>
-    </main>
+    </div>
+        
 </body>
 </html>

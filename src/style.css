@@ -1,15 +1,22 @@
+body {
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/back_pic/03/54/76/03579b1e017abfe.jpg');
+}
+header {
+    background-color: #183153;
+    height: 60px;
+}
 h1 {
     text-align: center;
-    background-color: #183153;
     color: #fff;
 }
 .card-wrapper {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
 }
-.card {
-    border: 1px solid black;
-    border-radius: 3px;
+.card-header {
+    height: 90px;
+}
+.car-body {
+    background-color: #4b4b7e;
 }
