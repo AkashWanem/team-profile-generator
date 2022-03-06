@@ -40,4 +40,25 @@ const constructTeam = team => {
                 `;
     };
 
+    // construct intern html
+    const constructIntern = intern => {
+        return `
+        <div class="card text-white bg-info m-3" style="max-width: 18rem;">
+            <div class="card-header">
+                <h2 class='card-title'>${intern.getName()}</h2>
+                <p class='card-title'><i class="fa-solid fa-graduation-cap"></i>${intern.getRole()}</p>
+            </div>
+            <div class="card-body">
+                <ul class="list-group">
+                    <li class="list-group-item">ID: ${intern.getId()}</li>
+                    <li class="list-group-item">Email: <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></li>
+                    <li class="list-group-item">School: ${intern.getSchool()}</li>
+                </ul>
+            </div>
+        </div>
+                `;
+    };
+
+    
+
 }
