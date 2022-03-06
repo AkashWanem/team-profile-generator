@@ -95,7 +95,7 @@ module.exports = team => {
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
     crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/9fd8af20e3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../develop/style.css">
     <title>Document</title>
     </head>
     <body>
