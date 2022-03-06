@@ -9,11 +9,6 @@ h1 {
     text-align: center;
     color: #fff;
 }
-.card-wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
 .card-header {
     height: 90px;
 }

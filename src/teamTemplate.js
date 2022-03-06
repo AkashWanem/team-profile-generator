@@ -64,20 +64,52 @@ const constructTeam = team => {
 
     html.push(team
         .filter(employee => employee.getRole() === "Manager")
-        .map(manager => generateManager(manager))
+        .map(manager => constructManager(manager))
     );
     html.push(team
         .filter(employee => employee.getRole() === "Engineer")
-        .map(engineer => generateEngineer(engineer))
+        .map(engineer => constructEngineer(engineer))
         .join("")
     );
     html.push(team
         .filter(employee => employee.getRole() === "Intern")
-        .map(intern => generateIntern(intern))
+        .map(intern => constructIntern(intern))
         .join("")
     );
 
     return html.join("");
 
+};
 
-}
+module.exports = team => {
+
+    return `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+    rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/9fd8af20e3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <h1>My Team</h1>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="row team-area col-12 d-flex justify-content-center">
+                    ${constructTeam(team)}
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+            `;
+};
