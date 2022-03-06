@@ -12,6 +12,9 @@ h1 {
 .card-header {
     height: 90px;
 }
-.car-body {
+.card-body {
     background-color: #4b4b7e;
+}
+.list-group-item {
+    color: black;
 }

@@ -8,7 +8,7 @@ const constructTeam = team => {
         <div class="card text-white bg-info m-3" style="max-width: 18rem;">
             <div class="card-header">
                 <h2 class='card-title'>${manager.getName()}</h2>
-                <p class='card-title'><i class="fa-solid fa-mug-hot"></i>${manager.getRole()}</p>
+                <p class='card-title'><i class="fa-solid fa-mug-hot"></i>&nbsp;${manager.getRole()}</p>
             </div>
             <div class="card-body">
                 <ul class="list-group">
@@ -27,7 +27,7 @@ const constructTeam = team => {
         <div class="card text-white bg-info m-3" style="max-width: 18rem;">
             <div class="card-header">
                 <h2 class='card-title'>${engineer.getName()}</h2>
-                <p class='card-title'><i class="fa-solid fa-glasses"></i>${engineer.getRole()}</p>
+                <p class='card-title'><i class="fa-solid fa-glasses"></i>&nbsp;&nbsp;${engineer.getRole()}</p>
             </div>
             <div class="card-body">
                 <ul class="list-group">
@@ -46,7 +46,7 @@ const constructTeam = team => {
         <div class="card text-white bg-info m-3" style="max-width: 18rem;">
             <div class="card-header">
                 <h2 class='card-title'>${intern.getName()}</h2>
-                <p class='card-title'><i class="fa-solid fa-graduation-cap"></i>${intern.getRole()}</p>
+                <p class='card-title'><i class="fa-solid fa-graduation-cap"></i>&nbsp;${intern.getRole()}</p>
             </div>
             <div class="card-body">
                 <ul class="list-group">
